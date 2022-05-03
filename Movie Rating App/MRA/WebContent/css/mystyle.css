@@ -1,0 +1,114 @@
+body{
+	background-color:rgb(230, 230, 230);
+	}
+ul{
+	display:flex;
+	flex-direction: row;
+	
+}
+li a{
+	color:black;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+li{
+	width: 25%;
+	text-decoration: none;
+}
+.buttonClass{
+	text-align: center;
+	justify-content: center;
+	margin: 25px auto 0 auto;
+	background-color: rgb(128, 243, 134);
+	transition: 0.3s all ease-in-out;
+	border: 0.3px solid rgb(211, 204, 204);
+	border-radius: 5px;
+	color: #fff;
+	width: 70px;
+	height: 40px;
+}
+#addMovieButton button{
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	margin: 25px auto 25px auto;
+	background-color: rgb(128, 243, 134);
+	transition: 0.3s all ease-in-out;
+	border: 0.3px solid rgb(211, 204, 204);
+	border-radius: 5px;
+	color: #fff;
+	width: 125px;
+	height: 100px;
+}
+#addMovieButton{
+	text-align: center;
+	justify-content: center;
+	margin: 25px auto 0 auto;
+}
+#addMovieButton button:hover{
+	background-color: rgb(97, 192, 102);
+	transition: 0.3s all ease-in-out;
+}
+#submit{
+	font-size: 20px;
+	text-align: center;
+	justify-items: center;
+	align-items: center;
+	margin: 25px auto 25px auto;
+	background-color: rgb(128, 243, 134);
+	transition: 0.3s all ease-in-out;
+	border: 0.3px solid rgb(211, 204, 204);
+	border-radius: 5px;
+	color: #fff;
+	width: 80px;
+	height: 60px;
+	cursor: pointer;
+}
+#addRating{
+	font-size: 20px;
+	text-align: center;
+	justify-items: center;
+	align-items: center;
+	margin: 25px auto 25px auto;
+	background-color: rgb(128, 243, 134);
+	transition: 0.3s all ease-in-out;
+	border: 0.3px solid rgb(211, 204, 204);
+	border-radius: 5px;
+	color: #fff;
+	width: 140px;
+	height: 50px;
+	cursor: pointer;
+}
+button{
+	cursor: pointer;
+}
+#showAllMovies {
+	box-sizing: border-box;
+	width: 90%;
+}
+th{
+	box-sizing: border-box;
+	width: 15%;
+}
+td{
+	text-align: center;
+	justify-content: center;
+}
+.myInput{
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+	margin-bottom: 15px;
+}
+.left{
+	box-sizing: border-box;
+	width: 25%;
+}
+.right{
+	box-sizing: border-box;
+	width: 50%;
+	align-items: left;
+	border-radius: 8px;
+}
